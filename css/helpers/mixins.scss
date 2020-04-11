@@ -1,0 +1,16 @@
+// Mixins using in my Sass
+@mixin border-r($radius: 10px) {
+  --webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+%image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+%standard-shaldow {
+  -webkit-box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
